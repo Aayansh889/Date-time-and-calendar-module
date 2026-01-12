@@ -1,0 +1,11 @@
+from datetime import date, datetime 
+time=datetime.now()
+print(f"Hour={time.hour}")
+print(f"Minute={time.minute}")
+print(f"Second={time.second}")
+print(f"Microsecond={time.microsecond}")
+today=date.today()
+print(f"Year={today.year}")
+print(f"Month={today.month}")
+print(f"Date={today.day}")
+print(f"Aligned Date={today.day}/{today.month}/{today.year}")
